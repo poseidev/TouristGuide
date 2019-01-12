@@ -1,3 +1,74 @@
 <resources>
-    <string name="app_name">Tourist Guide</string>
+    <string name="app_name">Tourist Guide - <i>Asunción, Paraguay</i></string>
+    <string name="category_Landmarks">"Landmarks"</string>
+    <string name="category_Museums">"Museums"</string>
+    <string name="category_Restaurants">"Restaurant"</string>
+    <string name="category_Shopping">"Shopping"</string>
+
+    <string name="place_landmark_cabildo">"Cabildo"</string>
+    <string name="place_landmark_cabildo_details">"An influential center that hosts cultural events and exhibitions by local artists and academics."</string>
+    <string name="place_landmark_cabildo_address">"Av. Republica e/ Chile y Alberdi, Asuncion"</string>
+
+    <string name="place_landmark_metropolitanCathedral">"Metropolitan Cathedral of Our Lady of the Assumption"</string>
+    <string name="place_landmark_metropolitanCathedral_details">"Also known Asunción Cathedral, it is the main Catholic church in Asunción.  It is dedicated to Our Lady of the Assumption, Asunción's patroness."</string>
+    <string name="place_landmark_metropolitanCathedral_address">"Plaza Independencia, Asuncion"</string>
+
+    <string name="place_landmark_jardinBotanico">"Jardín Botánico"</string>
+    <string name="place_landmark_jardinBotanico_details">"Houses the city zoo, a nature reserve, and former residential properties of the López dynasty."</string>
+    <string name="place_landmark_jardinBotanico_address">"Artigas y Av Primer presidente, Asuncion"</string>
+
+    <string name="place_landmark_palacioLopez">"Palacio López"</string>
+    <string name="place_landmark_palacioLopez_details">"Where the government currently sits.  In the early days of independence one could be executed by wandering and looking at the palace's exterior.  Photos could be taken from a river side as it is prohibited to the public. "</string>
+    <string name="place_landmark_palacioLopez_address">"Av Paraguayo Independiente, Asuncion"</string>
+
+    <string name="place_museum_museoBarbero">"Museo Etnográfico Andres Barbero"</string>
+    <string name="place_museum_museoBarbero_details">"An ethnographic and archaelogical museum built in 1933. It houses a photo gallery and exhibits artifacts describing the way of life of different ethnic groups of the country before Spanish colonization."</string>
+    <string name="place_museum_museoBarbero_address">"Plaza Independencia, Asuncion"</string>
+
+    <string name="place_museum_estacionFerrocarril">"Estación Ferrocarril"</string>
+    <string name="place_museum_estacionFerrocarril_details">"The first railway line in South America. Displayed on site is one of the first trains than ran from Asunción to Encarnacion. This is now used more for concerts, theater shows, and recitals. "</string>
+    <string name="place_museum_estacionFerrocarril_address">"Ayala Eligio Dr. 145 Esq. Mexico, Asuncion 1302"</string>
+
+    <string name="place_museum_fineArts">National Museum of Fine Arts of Asunción</string>
+    <string name="place_museum_fineArts_details">Founded in 1909 by the intellectual Juan Silvano Godoy at the time of Paraguay nation reconstruction.</string>
+    <string name="place_museum_fineArts_address">Eligio Ayala, Asunción</string>
+
+    <string name="place_museum_museoDelBarro">"Museo del Barro"</string>
+    <string name="place_museum_museoDelBarro_details">"This favorite place displays modern paintings to pre-Columbian and indigenous crafts, to political caricatures of prominent Paraguayans."</string>
+    <string name="place_museum_museoDelBarro_address">"Grabadores Del Cabichui 2716 E/ Emeterio Miranda y Canada, Asuncion C.P. 1827"</string>
+
+    <string name="place_restaurant_barSanRoque">"Bar San Roque"</string>
+    <string name="place_restaurant_barSanRoque_details">"A longtime local favorite, the delectable Paraguayan cuisine it features should not be missed.  "</string>
+    <string name="place_restaurant_barSanRoque_address">"Eligio Ayala, Asuncíon"</string>
+
+    <string name="place_restaurant_confiteriaBolsi">"Confitería Bolsi"</string>
+    <string name="place_restaurant_confiteriaBolsi_details">"Traditional cafe established in 1960 that serves everything from sandwiches to curried rabbit to garlic pizza."</string>
+    <string name="place_restaurant_confiteriaBolsi_address">"Estrella 399"</string>
+
+    <string name="place_restaurant_lidoBar">"Lido Bar"</string>
+    <string name="place_restaurant_lidoBar_details">"The city's most popular historic diner and meeting place for its sidewalk tables opposite the Panteón de los Héroes."</string>
+    <string name="place_restaurant_lidoBar_address">"Central: Palma y Chile (Centro); Villamorra - Cruz del Chaco (Manzana T)"</string>
+
+    <string name="place_restaurant_paulistaGrill">"Paulista Grill"</string>
+    <string name="place_restaurant_paulistaGrill_details">"One of the city's famous buffet-style restaurant serving delicious meats, salad, pasta, sushi, and creative desserts."</string>
+    <string name="place_restaurant_paulistaGrill_address">"Av. San Martín c/ Mcal. López."</string>
+
+    <string name="place_shopping_mariscalLopez">"Mariscal Lopez Shopping"</string>
+    <string name="place_shopping_mariscalLopez_details">"Inaugurated in September 1, 1996, it is one of the most important shopping malls in the country."</string>
+    <string name="place_shopping_mariscalLopez_address">"San Blas, Quesada 5050 between Charles de Gaulle and Tte. Zotti"</string>
+
+    <string name="place_shopping_paseoCarmelitas">"Paseo Carmelitas"</string>
+    <string name="place_shopping_paseoCarmelitas_details">"The nightlife and food center of the country!"</string>
+    <string name="place_shopping_paseoCarmelitas_address">"Avda. Espana Esq. Malutin"</string>
+
+    <string name="place_shopping_paseoLaGaleria">"Paseo La Galeria"</string>
+    <string name="place_shopping_paseoLaGaleria_details">"Located 5 minutes from the main avenues of the city - Mariscal López, Madame Lynch España, San Martin and República Aregentina."</string>
+    <string name="place_shopping_paseoLaGaleria_address">"Avda. Santa Teresa Between Aviadores del Chaco and Herminio Maldonado"</string>
+
+    <string name="place_shopping_shoppingDelSol">"Shopping del Sol"</string>
+    <string name="place_shopping_shoppingDelSol_details">"Opened in 1995, its Paraguay's first shopping center"</string>
+    <string name="place_shopping_shoppingDelSol_address">"Av. Del Chaco Prof. de Gonzalez, Asuncion 1749"</string>
+    <string name="nameField">Name</string>
+    <string name="detailsField">Details</string>
+    <string name="TabLayoutIndex">TabLayoutIndex</string>
 </resources>

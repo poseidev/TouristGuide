@@ -1,18 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="horizontal"
+    android:background="@color/colorCategory">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        style="@style/CategoryColumnContainerStyle"
+        android:layout_weight="1">
 
-</android.support.constraint.ConstraintLayout>
+        <LinearLayout
+            style="@style/CategoryMainContainerStyle"
+            android:layout_weight="1"
+            android:id="@+id/landmarksCategory">
+
+            <ImageView
+                style="@style/CategoryImageStyle"
+                android:layout_weight="1"
+                android:src="@drawable/place_category_landmarks"/>
+
+            <TextView
+                style="@style/CategoryMainStyle"
+                android:layout_weight="1"
+                android:text="Landmarks" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/CategoryMainContainerStyle"
+            android:layout_weight="1"
+            android:id="@+id/restaurantsCategory">
+
+            <ImageView
+                style="@style/CategoryImageStyle"
+                android:layout_weight="1"
+                android:src="@drawable/place_category_restaurants"/>
+
+            <TextView
+                style="@style/CategoryMainStyle"
+                android:text="Restaurants"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/CategoryColumnContainerStyle"
+        android:layout_weight="1">
+
+        <LinearLayout
+            style="@style/CategoryMainContainerStyle"
+            android:layout_weight="1"
+            android:id="@+id/museumsCategory">
+
+            <ImageView
+                style="@style/CategoryImageStyle"
+                android:layout_weight="1"
+                android:src="@drawable/place_category_museums"/>
+
+            <TextView
+                style="@style/CategoryMainStyle"
+                android:layout_weight="1"
+                android:text="Museums" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/CategoryMainContainerStyle"
+            android:layout_weight="1"
+            android:id="@+id/shoppingCategory">
+
+            <ImageView
+                style="@style/CategoryImageStyle"
+                android:layout_weight="1"
+                android:src="@drawable/place_category_shopping"/>
+
+            <TextView
+                style="@style/CategoryMainStyle"
+                android:layout_weight="1"
+                android:text="Shopping" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
