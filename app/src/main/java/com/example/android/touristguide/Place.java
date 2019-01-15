@@ -6,6 +6,7 @@ public class Place {
     private String mDetails;
     private String mAddress;
     private int mImageResource;
+    private int mImageResourceFull;
 
     public Place() { }
 
@@ -29,6 +30,11 @@ public class Place {
         mImageResource = imageResource;
     }
 
+    public void setImageResourceFull(int imageResourceFull)
+    {
+        mImageResourceFull = imageResourceFull;
+    }
+
     public String getName()
     {
         return mName;
@@ -47,5 +53,10 @@ public class Place {
     public int getImageResource()
     {
         return mImageResource;
+    }
+
+    public int getImageResourceFull()
+    {
+        return mImageResourceFull;
     }
 }

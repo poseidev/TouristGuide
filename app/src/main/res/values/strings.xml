@@ -11,23 +11,23 @@
 
     <string name="place_landmark_metropolitanCathedral">"Metropolitan Cathedral of Our Lady of the Assumption"</string>
     <string name="place_landmark_metropolitanCathedral_details">"Also known Asunción Cathedral, it is the main Catholic church in Asunción.  It is dedicated to Our Lady of the Assumption, Asunción's patroness."</string>
-    <string name="place_landmark_metropolitanCathedral_address">"Plaza Independencia, Asuncion"</string>
+    <string name="place_landmark_metropolitanCathedral_address">"Plaza Independencia, Asunción"</string>
 
     <string name="place_landmark_jardinBotanico">"Jardín Botánico"</string>
     <string name="place_landmark_jardinBotanico_details">"Houses the city zoo, a nature reserve, and former residential properties of the López dynasty."</string>
-    <string name="place_landmark_jardinBotanico_address">"Artigas y Av Primer presidente, Asuncion"</string>
+    <string name="place_landmark_jardinBotanico_address">"Artigas y Av Primer presidente, Asunción"</string>
 
     <string name="place_landmark_palacioLopez">"Palacio López"</string>
-    <string name="place_landmark_palacioLopez_details">"Where the government currently sits.  In the early days of independence one could be executed by wandering and looking at the palace's exterior.  Photos could be taken from a river side as it is prohibited to the public. "</string>
-    <string name="place_landmark_palacioLopez_address">"Av Paraguayo Independiente, Asuncion"</string>
+    <string name="place_landmark_palacioLopez_details">"Where the government currently sits.  In the early days of independence one could be executed by wandering and looking at the palace's exterior. Photos could be taken from a river side as the site is prohibited from the public. "</string>
+    <string name="place_landmark_palacioLopez_address">"Av Paraguayo Independiente, Asunción"</string>
 
     <string name="place_museum_museoBarbero">"Museo Etnográfico Andres Barbero"</string>
     <string name="place_museum_museoBarbero_details">"An ethnographic and archaelogical museum built in 1933. It houses a photo gallery and exhibits artifacts describing the way of life of different ethnic groups of the country before Spanish colonization."</string>
-    <string name="place_museum_museoBarbero_address">"Plaza Independencia, Asuncion"</string>
+    <string name="place_museum_museoBarbero_address">"Plaza Independencia, Asunción"</string>
 
     <string name="place_museum_estacionFerrocarril">"Estación Ferrocarril"</string>
     <string name="place_museum_estacionFerrocarril_details">"The first railway line in South America. Displayed on site is one of the first trains than ran from Asunción to Encarnacion. This is now used more for concerts, theater shows, and recitals. "</string>
-    <string name="place_museum_estacionFerrocarril_address">"Ayala Eligio Dr. 145 Esq. Mexico, Asuncion 1302"</string>
+    <string name="place_museum_estacionFerrocarril_address">"Ayala Eligio Dr. 145 Esq. Mexico, Asunción 1302"</string>
 
     <string name="place_museum_fineArts">National Museum of Fine Arts of Asunción</string>
     <string name="place_museum_fineArts_details">Founded in 1909 by the intellectual Juan Silvano Godoy at the time of Paraguay nation reconstruction.</string>
@@ -39,7 +39,7 @@
 
     <string name="place_restaurant_barSanRoque">"Bar San Roque"</string>
     <string name="place_restaurant_barSanRoque_details">"A longtime local favorite, the delectable Paraguayan cuisine it features should not be missed.  "</string>
-    <string name="place_restaurant_barSanRoque_address">"Eligio Ayala, Asuncíon"</string>
+    <string name="place_restaurant_barSanRoque_address">"Eligio Ayala, Asunción"</string>
 
     <string name="place_restaurant_confiteriaBolsi">"Confitería Bolsi"</string>
     <string name="place_restaurant_confiteriaBolsi_details">"Traditional cafe established in 1960 that serves everything from sandwiches to curried rabbit to garlic pizza."</string>
@@ -71,4 +71,5 @@
     <string name="nameField">Name</string>
     <string name="detailsField">Details</string>
     <string name="TabLayoutIndex">TabLayoutIndex</string>
+    <string name="label_close">Close</string>
 </resources>

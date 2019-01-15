@@ -31,7 +31,7 @@
         <item name="android:orientation">vertical</item>
     </style>
 
-    <style name="CategoryMainContainerStyle">
+    <style name="CategoryFrameLayoutStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_margin">16dp</item>
@@ -41,13 +41,21 @@
         <item name="android:gravity">center_horizontal</item>
     </style>
 
+    <style name="CategoryMainContainerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
     <style name="CategoryMainStyle">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:gravity">center_horizontal</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textAppearance">?android:textAppearanceSmall</item>
-        <item name="android:background">@color/colorCategoryText</item>
+        <!--<item name="android:background">@color/colorCategoryText</item>-->
         <item name="tabTextColor">@color/colorBlack</item>
     </style>
 

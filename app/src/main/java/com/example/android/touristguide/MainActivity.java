@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         LinearLayout landmarksLayout = findViewById(R.id.landmarksCategory);
-        LinearLayout museumslayout = findViewById(R.id.museumsCategory);
+        LinearLayout museumsLayout = findViewById(R.id.museumsCategory);
         LinearLayout restaurantsLayout = findViewById(R.id.restaurantsCategory);
         LinearLayout shoppingLayout = findViewById(R.id.shoppingCategory);
 
@@ -23,14 +23,18 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, CategoryDetailsActivity.class);
+
+                // Save the category selected in the main page
+                // Saved category will determine which place list to display in the next activity
                 Bundle bundle = new Bundle();
                 bundle.putInt(getString(R.string.TabLayoutIndex), 0);
                 intent.putExtras(bundle);
+
                 startActivity(intent);
             }
         });
 
-        museumslayout.setOnClickListener(new View.OnClickListener() {
+        museumsLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, CategoryDetailsActivity.class);

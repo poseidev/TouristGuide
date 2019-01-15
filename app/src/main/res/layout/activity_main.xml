@@ -11,74 +11,86 @@
         style="@style/CategoryColumnContainerStyle"
         android:layout_weight="1">
 
-        <LinearLayout
-            style="@style/CategoryMainContainerStyle"
-            android:layout_weight="1"
-            android:id="@+id/landmarksCategory">
+        <FrameLayout
+            style="@style/CategoryFrameLayoutStyle"
+            android:layout_weight="1">
+            <LinearLayout
+                style="@style/CategoryMainContainerStyle"
+                android:id="@+id/landmarksCategory">
 
-            <ImageView
-                style="@style/CategoryImageStyle"
-                android:layout_weight="1"
-                android:src="@drawable/place_category_landmarks"/>
+                <ImageView
+                    style="@style/CategoryImageStyle"
+                    android:layout_weight="1"
+                    android:src="@drawable/place_category_landmarks"/>
 
-            <TextView
-                style="@style/CategoryMainStyle"
-                android:layout_weight="1"
-                android:text="Landmarks" />
-        </LinearLayout>
+                <TextView
+                    style="@style/CategoryMainStyle"
+                    android:layout_weight="1"
+                    android:text="Landmarks" />
+            </LinearLayout>
+        </FrameLayout>
 
-        <LinearLayout
-            style="@style/CategoryMainContainerStyle"
-            android:layout_weight="1"
-            android:id="@+id/restaurantsCategory">
+        <FrameLayout
+            style="@style/CategoryFrameLayoutStyle"
+            android:layout_weight="1">
+            <LinearLayout
+                style="@style/CategoryMainContainerStyle"
+                android:id="@+id/restaurantsCategory">
 
-            <ImageView
-                style="@style/CategoryImageStyle"
-                android:layout_weight="1"
-                android:src="@drawable/place_category_restaurants"/>
+                <ImageView
+                    style="@style/CategoryImageStyle"
+                    android:layout_weight="1"
+                    android:src="@drawable/place_category_restaurants"/>
 
-            <TextView
-                style="@style/CategoryMainStyle"
-                android:text="Restaurants"
-                android:layout_weight="1"/>
-        </LinearLayout>
+                <TextView
+                    style="@style/CategoryMainStyle"
+                    android:text="Restaurants"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+        </FrameLayout>
     </LinearLayout>
 
     <LinearLayout
         style="@style/CategoryColumnContainerStyle"
         android:layout_weight="1">
 
-        <LinearLayout
-            style="@style/CategoryMainContainerStyle"
-            android:layout_weight="1"
-            android:id="@+id/museumsCategory">
+        <FrameLayout
+            style="@style/CategoryFrameLayoutStyle"
+            android:layout_weight="1">
+            <LinearLayout
+                style="@style/CategoryMainContainerStyle"
+                android:id="@+id/museumsCategory">
 
-            <ImageView
-                style="@style/CategoryImageStyle"
-                android:layout_weight="1"
-                android:src="@drawable/place_category_museums"/>
+                <ImageView
+                    style="@style/CategoryImageStyle"
+                    android:layout_weight="1"
+                    android:src="@drawable/place_category_museums"/>
 
-            <TextView
-                style="@style/CategoryMainStyle"
-                android:layout_weight="1"
-                android:text="Museums" />
-        </LinearLayout>
+                <TextView
+                    style="@style/CategoryMainStyle"
+                    android:layout_weight="1"
+                    android:text="Museums" />
+            </LinearLayout>
+        </FrameLayout>
 
-        <LinearLayout
-            style="@style/CategoryMainContainerStyle"
-            android:layout_weight="1"
-            android:id="@+id/shoppingCategory">
+        <FrameLayout
+            style="@style/CategoryFrameLayoutStyle"
+            android:layout_weight="1">
+            <LinearLayout
+                style="@style/CategoryMainContainerStyle"
+                android:id="@+id/shoppingCategory">
 
-            <ImageView
-                style="@style/CategoryImageStyle"
-                android:layout_weight="1"
-                android:src="@drawable/place_category_shopping"/>
+                <ImageView
+                    style="@style/CategoryImageStyle"
+                    android:layout_weight="1"
+                    android:src="@drawable/place_category_shopping"/>
 
-            <TextView
-                style="@style/CategoryMainStyle"
-                android:layout_weight="1"
-                android:text="Shopping" />
-        </LinearLayout>
+                <TextView
+                    style="@style/CategoryMainStyle"
+                    android:layout_weight="1"
+                    android:text="Shopping" />
+            </LinearLayout>
+        </FrameLayout>
     </LinearLayout>
 
 </LinearLayout>

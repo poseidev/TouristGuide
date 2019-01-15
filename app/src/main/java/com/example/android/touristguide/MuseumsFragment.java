@@ -1,23 +1,17 @@
 package com.example.android.touristguide;
 
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
-
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * A simple {@link Fragment} subclass.
- */
 public class MuseumsFragment extends Fragment {
 
     public MuseumsFragment() {
-        // Required empty public constructor
     }
 
     @Override
@@ -33,6 +27,7 @@ public class MuseumsFragment extends Fragment {
             setDetails(getString(R.string.place_museum_estacionFerrocarril_details));
             setAddress(getString(R.string.place_museum_estacionFerrocarril_address));
             setImageResource(R.drawable.museum_estacion_thumb);
+            setImageResourceFull(R.drawable.museum_estacion_full);
         }});
 
         places.add(new Place(){{
@@ -40,6 +35,7 @@ public class MuseumsFragment extends Fragment {
             setDetails(getString(R.string.place_museum_museoDelBarro_details));
             setAddress(getString(R.string.place_museum_museoDelBarro_address));
             setImageResource(R.drawable.museum_del_barro_thumb);
+            setImageResourceFull(R.drawable.museum_del_barro_full);
         }});
 
         places.add(new Place(){{
@@ -47,6 +43,7 @@ public class MuseumsFragment extends Fragment {
             setDetails(getString(R.string.place_museum_museoBarbero_details));
             setAddress(getString(R.string.place_museum_museoBarbero_address));
             setImageResource(R.drawable.museum_barbero_thumb);
+            setImageResourceFull(R.drawable.museum_barbero_full);
         }});
 
         places.add(new Place(){{
@@ -54,6 +51,7 @@ public class MuseumsFragment extends Fragment {
             setDetails(getString(R.string.place_museum_fineArts_details));
             setAddress(getString(R.string.place_museum_fineArts_address));
             setImageResource(R.drawable.museum_fine_arts_thumb);
+            setImageResourceFull(R.drawable.museum_fine_arts_full);
         }});
 
 
@@ -65,5 +63,4 @@ public class MuseumsFragment extends Fragment {
 
         return rootView;
     }
-
 }

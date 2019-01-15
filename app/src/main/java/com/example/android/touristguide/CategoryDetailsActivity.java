@@ -31,12 +31,12 @@ public class CategoryDetailsActivity extends AppCompatActivity {
 
         tabLayout.setupWithViewPager(viewPager);
 
-
+        // Get the selected category (tab index) from the main activity and
+        // displays the place list based on the said category
         Bundle bundle = getIntent().getExtras();
         Integer tabIndex = bundle.getInt(getString(R.string.TabLayoutIndex));
 
         viewPager.setCurrentItem(tabIndex, false);
-
     }
 
     @Override
