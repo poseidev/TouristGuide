@@ -72,4 +72,5 @@
     <string name="detailsField">Details</string>
     <string name="TabLayoutIndex">TabLayoutIndex</string>
     <string name="label_close">Close</string>
+    <string name="actionbar_home">Home</string>
 </resources>

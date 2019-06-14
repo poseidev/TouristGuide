@@ -5,16 +5,24 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarStyle">@style/Actionbar</item>
         <item name="android:titleTextStyle">@style/ActionbarTitle</item>
     </style>
 
     <style name="Actionbar" parent="Widget.AppCompat.ActionBar">
         <item name="android:titleTextStyle">@style/ActionbarTitle</item>
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
     </style>
 
     <style name="ActionbarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
         <item name="android:textAppearance">?android:textAppearanceLarge</item>
         <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="CustomDialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/colorTransparent</item>
     </style>
 
     <style name="CategoryTabStyle">
@@ -55,7 +63,6 @@
         <item name="android:gravity">center_horizontal</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textAppearance">?android:textAppearanceSmall</item>
-        <!--<item name="android:background">@color/colorCategoryText</item>-->
         <item name="tabTextColor">@color/colorBlack</item>
     </style>
 
@@ -69,7 +76,4 @@
         <item name="android:paddingRight">4dp</item>
         <item name="android:gravity">top</item>
     </style>
-
-
-
 </resources>

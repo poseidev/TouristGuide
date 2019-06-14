@@ -4,9 +4,12 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.app.NavUtils;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.MenuItem;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.ImageButton;
 
 public class CategoryDetailsActivity extends AppCompatActivity {
 
@@ -15,9 +18,31 @@ public class CategoryDetailsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         // Set up "Up" button in the action bar
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(false);
+        actionBar.setDisplayShowTitleEnabled(false);
+        actionBar.setDisplayUseLogoEnabled(false);
+        actionBar.setDisplayShowCustomEnabled(true);
 
-        setContentView(R.layout.activity_cateogry_details);
+        ActionBar.LayoutParams layoutParams = new ActionBar.LayoutParams(
+                ActionBar.LayoutParams.MATCH_PARENT,
+                ActionBar.LayoutParams.MATCH_PARENT
+        );
+
+        View view = LayoutInflater.from(this).inflate(R.layout.actionbar_categories, null);
+
+        ImageButton homeButton = view.findViewById(R.id.homeButton);
+
+        homeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavUtils.navigateUpFromSameTask(CategoryDetailsActivity.this);
+            }
+        });
+
+        actionBar.setCustomView(view, layoutParams);
+
+        setContentView(R.layout.activity_category_details);
 
         // Initialize ViewPager
         ViewPager viewPager = findViewById(R.id.viewPager);
@@ -37,20 +62,5 @@ public class CategoryDetailsActivity extends AppCompatActivity {
         Integer tabIndex = bundle.getInt(getString(R.string.TabLayoutIndex));
 
         viewPager.setCurrentItem(tabIndex, false);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId())
-        {
-            case android.R.id.home:
-                NavUtils.navigateUpFromSameTask(this);
-                return true;
-
-            default:
-                break;
-        }
-
-        return super.onOptionsItemSelected(item);
     }
 }

@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--<RelativeLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="wrap_content"
     android:layout_width="wrap_content"
-    android:gravity="center_horizontal">-->
+    android:layout_gravity="center_horizontal">
 
-<ImageView android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:src="@drawable/landmark_cabildo_full"
-    android:adjustViewBounds="true"
-    android:id="@+id/imageView"
-    xmlns:android="http://schemas.android.com/apk/res/android" />
+    <ImageView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/landmark_cabildo_full"
+        android:adjustViewBounds="true"
+        android:id="@+id/imageView" />
 
-    <!--<ImageButton
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:src="@drawable/icon_close_image"
         android:layout_alignRight="@+id/imageView"
-        />
-</RelativeLayout>-->
+        android:src="@drawable/icon_close_image"
+        android:id="@+id/closeButton"/>
+</RelativeLayout>

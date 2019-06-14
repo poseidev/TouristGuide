@@ -51,7 +51,6 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         return 4;
     }
 
-    @Nullable
     @Override
     public CharSequence getPageTitle(int position) {
         String title = null;
